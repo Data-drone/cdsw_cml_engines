@@ -29,6 +29,8 @@ RUN wget --quiet https://download2.rstudio.org/server/bionic/amd64/rstudio-serve
     dpkg -i rstudio-server-1.4.1103-amd64.deb && \
     rm rstudio-server-1.4.1103-amd64.deb
 
+RUN chmod -R g=u /etc/rstudio
+
 COPY rserver.conf /etc/rstudio/rserver.conf
 
 COPY rstudio-cdsw /usr/local/bin/rstudio-cdsw
