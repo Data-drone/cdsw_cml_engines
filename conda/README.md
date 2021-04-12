@@ -22,5 +22,6 @@ ipython kernel install --user --name=rapids
 
 ## then setup other envs
 
-
 ```
+
+Note this doesn't fix jobs, experiments and other bits
