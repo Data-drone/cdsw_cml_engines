@@ -36,5 +36,11 @@ conda install -c rapidsai -c nvidia -c conda-forge \
 # install kernel in (base) ?
 ipython kernel install --user --name=rapids
 
+<<<<<<< HEAD
 
 ```
+=======
+```
+
+Note this doesn't fix jobs, experiments and other bits
+>>>>>>> 0525be42c44e0f937b9e29dfb7428a8ffc1cfd94
