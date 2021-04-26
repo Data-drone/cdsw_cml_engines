@@ -27,9 +27,9 @@ conda activate rapids
 conda install -c rapidsai -c nvidia -c conda-forge \
     -c defaults rapids-blazing=0.18 
 
-# kernel setups
-# install kernel in (base) ?
-# maybe don't need this
-#ipython kernel install --user --name=rapids
+# Setting up kernels accessible in notebooks
+# Run in each env
+conda install ipykernel
+python -m ipykernel install --user --name=<env_name>
 
 ```
